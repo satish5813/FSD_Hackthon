@@ -1,8 +1,62 @@
-# React + Vite
+# React + Vite+Next.JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Art Gallery Management System
 
-Currently, two official plugins are available:
+This project is an **Art Gallery Management System** that provides CRUD operations for managing users, artworks, categories, and orders. The frontend is built with **React**, **Vite**, and **Next.js**, and it interacts with a Spring Boot backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 📑 Features
+
+### Users Dashboard
+- Manage user data (Name, Email, Role, Status).
+- Roles: Admin, Artist, Visitor.
+- Status: Active/Inactive.
+
+### Artworks Dashboard
+- Manage artwork details (Title, Description, Artist, Category, Price, Image, Status).
+- Status: Available/Sold.
+- Upload images for artworks.
+
+### Categories Dashboard
+- Manage categories for artworks (Name, Description, Status).
+- Status: Active/Inactive.
+
+### Orders Dashboard
+- Manage orders (Order ID, Customer Name, Artwork, Amount, Order Date, Status).
+- Status: Completed/Pending/Cancelled.
+
+---
+
+## 🚀 Tech Stack
+
+### Frontend
+- **React.js**
+- **Vite** - For fast build and development.
+- **Next.js** - For server-side rendering and routing.
+- **CSS Modules**/**TailwindCSS** for styling (optional).
+
+### Backend
+- **Spring Boot** - REST APIs for CRUD operations.
+- **MySQL** - Database for storing data.
+
+---
+
+## 🔧 Prerequisites
+
+### Install Dependencies
+- **Node.js** (version >= 16.x)
+- **npm** or **yarn**
+- **MySQL Database**
+
+### Backend Setup
+Follow the Spring Boot setup in the backend folder for API development.
+
+---
+
+## 🛠️ Installation
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/your-username/art-gallery-management.git
+cd art-gallery-management
